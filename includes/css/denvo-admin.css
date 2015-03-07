@@ -1,0 +1,66 @@
+/**
+ * Denvo CSS
+ */
+ 
+	.denvo-navigation li {
+		display: inline-block;
+		margin-right: 0.5em;
+		font-size: 1.2em;
+	}
+
+	.denvo-navigation li.current-nav-item a {
+		font-weight: bold;
+		display: inline-block;
+		padding: 0.3em 0.5em;
+		background-color: #0074a2;
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.denvo-rollyourown textarea {
+		min-width: 60%;
+		min-height: 150px;
+	}
+
+	.denvo-phpinfo-result table {
+		border-collapse: collapse;
+	}
+	
+	
+	
+
+		.denvo-phpinfo-result table tr {
+			background-color: #fff;
+		}
+
+		.denvo-phpinfo-result table tr:nth-child(odd) {
+			background-color: #eee;
+		}
+
+		.denvo-phpinfo-result td,
+		.denvo-phpinfo-result th {
+			border: 1px solid #555;
+			text-align: left;
+		}
+		
+		.denvo-phpinfo-result table td {
+			vertical-align: baseline;
+		}
+		
+			.denvo-phpinfo-result table td.e {
+				background-color: #ccf;
+			}
+
+	.denvo-phpinfo-result table:nth-of-type(1) {
+		border: 0;
+	}
+		
+		.denvo-phpinfo-result table:nth-of-type(1) td,
+		.denvo-phpinfo-result table:nth-of-type(1) th {
+			border: 0;
+		}
+		
+	
+		
+
+	
